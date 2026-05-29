@@ -39,6 +39,7 @@ A Next.js application to explore countries around the world — flags, capitals,
 
 ## Not Found
 ![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-localhost-3000-countries-ALA-2026-05-30-03_01_08.png)
+
 ---
 
 ##  Features
@@ -50,6 +51,8 @@ A Next.js application to explore countries around the world — flags, capitals,
 - Fully responsive design
 - Loading skeletons and custom 404 page
 - Glassmorphism UI with smooth animations
+
+  ---
 
 ## Next.js Concepts Practiced
 
@@ -64,6 +67,8 @@ A Next.js application to explore countries around the world — flags, capitals,
 - loading.js & not-found.jsx
 - Context API for theme management
 
+  ---
+
 ## Tech Stack
 
 - Next.js 16
@@ -71,9 +76,10 @@ A Next.js application to explore countries around the world — flags, capitals,
 - REST Countries API
 - CSS3 (custom properties, glassmorphism)
 
-## Project Structure
-## 📁 Project Structure
+  ---
 
+## Project Structure
+```
 app/
 ├── layout.js
 ├── page.jsx
@@ -94,7 +100,8 @@ components/
 
 styles/
 └── globals.css
-
+```
+---
 
 ## 🚀 Run Locally
 npm install
