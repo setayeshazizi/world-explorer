@@ -1,156 +1,121 @@
-# 🌍 World Explorer
+9”}
+🌍 World Explorer
+A modern Next.js application that allows users to explore countries around the world using real data from the REST Countries API.
 
-A modern, high-performance Next.js application that lets you explore every country on Earth — flags, capitals, populations, currencies, languages, time zones, and more. Powered by real-time data from the REST Countries API.
 
-![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![REST API](https://img.shields.io/badge/API-REST%20Countries-green)
-![CSS](https://img.shields.io/badge/Style-CSS3-purple?logo=css3)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+⸻
 
----
 
-## 📑 Table of Contents
+📖 Overview
+World Explorer is a web application built with Next.js that provides information about countries, including their flags, capitals, populations, regions, languages, currencies, and time zones.
+The project demonstrates core concepts of Next.js such as routing, data fetching, and component-based architecture.
 
-- [Live Demo](#-live-demo)
-- [Video Demo](#-video-demo)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [Bonus Features](#-bonus-features)
-- [Tech Stack](#-tech-stack)
-- [Next.js Concepts Practiced](#-nextjs-concepts-practiced)
-- [Project Structure](#-project-structure)
-- [API Reference](#-api-reference)
-- [Getting Started](#-getting-started)
-- [Performance](#-performance)
-- [Accessibility](#-accessibility)
-- [Author](#-author)
-- [License](#-license)
-- [Acknowledgements](#-acknowledgements)
 
----
+⸻
 
-## 🔗 Live Demo
 
-🚀 Try it online: [World Explorer Live Demo](https://world-explorer-demo.vercel.app)
+✨ Features
+🌐 Browse a list of countries
+🏳️ View country flags and basic information
+📄 Open a detailed page for each country
+🔍 Search countries by name
+🔗 Access Google Maps location for each country
+📱 Responsive design for different screen sizes
 
-> *Deployed on Vercel with automatic CI/CD from GitHub.*
 
----
+⸻
 
-## 🎥 Video Demo
 
-📺 Watch the walkthrough: [Project Demo Video](https://youtube.com/your-video-link)
+🧠 Concepts Used
+This project is built to practice the following Next.js features:
+App Router (/app directory)
+File-based routing
+Shared layout (Navbar & Footer)
+Dynamic routes (/countries/[code])
+Server Components
+Client Components (useState)
+Data fetching with async/await
+Static rendering (cache: "force-cache")
+Dynamic rendering (cache: "no-store")
 
-> *Full feature demonstration including all pages, dark mode, search, filtering, and responsive design.*
 
----
+⸻
 
-## 📸 Screenshots
 
-| | | |
-|:---:|:---:|:---:|
-| Home Page | Countries Page | Country Details |
-| ![Home](screenshots/home.png) | ![Countries](screenshots/countries.png) | ![Details](screenshots/details.png) |
-| Search Page | Dark Mode | Mobile View |
-| ![Search](screenshots/search.png) | ![Dark Mode](screenshots/darkmode.png) | ![Mobile](screenshots/mobile.png) |
+🛠️ Tech Stack
+Next.js
+React
+REST Countries API
+CSS / Tailwind (depending on your implementation)
 
----
 
-## ✨ Features
+⸻
 
-### Core Requirements
-- 🏠 Home Page — Hero section, call-to-action buttons, statistics overview, feature highlights
-- 🌐 Countries Page — Browse all 250+ countries with flags, capitals, regions, and populations
-- 🔍 Country Details Page — Dynamic routes for each country showing full details + Google Maps link
-- 🔎 Search Page — Real-time search with debounced input, region filtering, and population sorting
-- 📄 About Page — Project purpose, API info, tech stack, and Next.js concepts breakdown
 
-### User Experience
-- 🎨 Glassmorphism UI — Modern frosted glass design with neon glow accents
-- 🌙 Dark / Light Mode — Full theme toggle with persistent user preference (localStorage)
-- 📱 Fully Responsive — Mobile-first design, hamburger menu, optimized for all screen sizes
-- ⚡ Lightning Fast — Static generation with ISR, lazy-loaded images, optimized fonts
-- 🎭 Smooth Animations — CSS transitions, hover effects, and micro-interactions
-- ♿ Accessible — ARIA labels, semantic HTML, keyboard navigation, screen reader friendly
+📡 API
+Data is fetched from:
+https://restcountries.com/v3.1/all
+https://restcountries.com/v3.1/alpha/{code}
 
----
 
-## ⭐ Bonus Features
+⸻
 
-| Feature | Description |
-|:---|:---|
-| 🌍 Region Filter | Filter countries by Asia, Europe, Africa, Americas, Oceania |
-| 📊 Population Sort | Sort countries by highest or lowest population |
-| 💀 Loading Skeleton | Custom loading.js with animated skeleton placeholders |
-| 🚫 Custom 404 Page | Styled not-found.jsx for non-existent routes |
-| 🌙 Dark Mode | Full theme system with CSS custom properties and context API |
-| 🏷️ Dynamic Metadata | generateMetadata() for SEO-optimized country detail pages |
-| 🔄 Debounced Search | 300ms debounce on search input for optimal performance |
-| 🛡️ Error Handling | Graceful fallbacks for API failures and empty states |
-| 📈 Stats Bar | Live statistics: total countries, regions count, global population |
-| 🎨 Glassmorphism | Frosted glass cards, neon glow effects, gradient text |
 
----
+📁 Project Structure
+app/
+  layout.js
+  page.js
+  about/
+    page.js
+  countries/
+    page.js
+    [code]/
+      page.js
+  search/
+    page.js
 
-## 🛠️ Tech Stack
+components/
+  Navbar.jsx
+  Footer.jsx
+  CountryCard.jsx
+  CountrySearch.jsx
 
-| Technology | Purpose |
-|:---|:---|
-| [Next.js 16](https://nextjs.org/) | React framework with App Router |
-| [React 19](https://react.dev/) | UI library |
-| [REST Countries API](https://restcountries.com/) | Real-time country data || CSS3 Custom Properties | Styling, theming, glassmorphism effects |
-| Vercel | Deployment & hosting |
+styles/
+  globals.css
 
----
 
-## 📚 Next.js Concepts Practiced
+⸻
 
-This project demonstrates mastery of the following Next.js concepts:
 
-| Concept | Implementation |
-|:---|:---|
-| App Router | /app directory structure |
-| File-based Routing | /about, /countries, /search |
-| Shared Layout | layout.js with Navbar + Footer |
-| Dynamic Routes | /countries/[code] |
-| Server Components | CountriesPage, CountryDetailsPage, SearchPage |
-| Client Components | CountrySearch, Navbar, ThemeProvider |
-| Data Fetching (async/await) | All data fetched server-side |
-| Static Rendering | Countries page with cache: "force-cache" |
-| Dynamic Rendering | Country details with cache: "no-store" |
-| ISR (Incremental Static Regeneration) | Search page with revalidate: 86400 |
-| Metadata API | generateMetadata() for dynamic SEO |
-| Loading UI | loading.jsx with skeleton placeholders |
-| Error Handling | Custom 404 page, API error states |
-| Dynamic Imports | Optimized component loading |
+▶️ Getting Started
+1. Install dependencies
+npm install
+2. Run development server
+npm run dev
+3. Open in browser
+http://localhost:3000
 
----
 
-## 📁 Project Structure
----
+⸻
 
-## 📡 API Reference
 
-### REST Countries API
+📸 Screenshots
+Include screenshots of:
+Home Page
+Countries Page
+Country Details Page
+Search Page
 
-| Endpoint | Method | Description | Caching |
-|:---|:---|:---|:---|
-| /v3.1/all | GET | Fetch all countries | force-cache (static) |
-| /v3.1/alpha/{code} | GET | Fetch single country by code | no-store (dynamic) |
 
-Example Response Fields:
-```json
-{
-  "name": { "common": "Afghanistan", "official": "Islamic Republic of Afghanistan" },
-  "cca3": "AFG",
-  "capital": ["Kabul"],
-  "region": "Asia",
-  "subregion": "Southern Asia",
-  "population": 40218234,
-  "flags": { "png": "...", "svg": "...", "alt": "..." },
-  "languages": { "prs": "Dari", "pus": "Pashto" },
-  "currencies": { "AFN": { "name": "Afghan afghani", "symbol": "؋" } },
-  "timezones": ["UTC+04:30"],
-  "maps": { "googleMaps": "https://..." }
-}
+⸻
+
+
+👩‍💻 Author
+Setayesh Azizi
+
+
+⸻
+
+
+📄 License
+This project is created for educational p
