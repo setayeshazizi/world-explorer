@@ -6,7 +6,7 @@ A Next.js application to explore countries around the world — flags, capitals,
 
 ## Live Demo
 
-🌐 https://world-explorer-omega-seven.vercel.app/
+🌐 https://product-store-app-tau.vercel.app/
 
 ---
 
@@ -18,9 +18,25 @@ A Next.js application to explore countries around the world — flags, capitals,
 
 ## 📸 Screenshots
 
-| Home | Countries | Details | Search |
-|:---:|:---:|:---:|:---:|
-| ![Home](screenshots/home.png) | ![Countries](screenshots/countries.png) | ![Details](screenshots/details.png) | ![Search](screenshots/search.png) |
+###  Home Page
+![Home]()
+![home withe light theme]()
+
+### Cart Page
+![empty cart page](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-cart-2026-04-24-19_57_39.png)
+![Cart](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-cart-2026-04-24-19_52_53.png)
+
+### Product Details
+![Details](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-product-4-2026-04-24-20_41_10.png)
+![Details light theme](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-product-3-2026-04-24-19_53_30.png)
+
+### Checkout Flow
+![Checkout1](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-checkout-2026-04-24-19_54_56.png)
+![Checkout2](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-checkout-2026-04-24-19_55_45.png)
+![Checkout3](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-checkout-2026-04-24-19_56_10.png)
+![Checkout4](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-checkout-2026-04-24-21_35_39%20(1).png)
+
+---
 
 ##  Features
 
