@@ -47,3 +47,41 @@ A Next.js application to explore countries around the world — flags, capitals,
 - CSS3 (custom properties, glassmorphism)
 
 ## Project Structure
+## 📁 Project Structure
+
+app/
+├── layout.js
+├── page.jsx
+├── not-found.jsx
+├── about/page.jsx
+├── countries/
+│   ├── loading.jsx
+│   ├── page.jsx
+│   └── [code]/page.jsx
+└── search/page.jsx
+
+components/
+├── Navbar.jsx
+├── Footer.jsx
+├── CountryCard.jsx
+├── CountrySearch.jsx
+└── ThemeProvider.jsx
+
+styles/
+└── globals.css
+
+
+## 🚀 Run Locally
+npm install
+npm run dev
+
+Open http://localhost:3000.
+
+Author
+Setayesh Azizi
+
+📄 License
+
+MIT
+
+`
