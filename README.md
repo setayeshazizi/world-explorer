@@ -22,7 +22,7 @@ A Next.js application to explore countries around the world — flags, capitals,
 ![Home](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-world-explorer-omega-seven-vercel-app-2026-05-30-02_58_24.png)
 ![home withe light theme](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-world-explorer-omega-seven-vercel-app-2026-05-30-02_58_55.png)
 
-### Cart Page
+### Countries
 ![empty cart page](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-cart-2026-04-24-19_57_39.png)
 ![Cart](https://github.com/setayeshazizi/product-store-app/blob/main/screenshots/screencapture-localhost-5173-cart-2026-04-24-19_52_53.png)
 
