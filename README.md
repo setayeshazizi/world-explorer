@@ -2,7 +2,7 @@
 
 A Next.js application to explore countries around the world — flags, capitals, populations, currencies, languages, and more. Powered by the REST Countries API.
 
-##  Live Demo[Live Demo](https://world-explorer-omega-seven.vercel.app/)
+## [Live Demo](https://world-explorer-omega-seven.vercel.app/)
 
 ##  Video Demo
 
