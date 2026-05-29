@@ -31,11 +31,12 @@ A Next.js application to explore countries around the world — flags, capitals,
 
 ### Search
 ![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_03-11-14.jpg)
-![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-world-explorer-omega-seven-vercel-app-search-2026-05-30-03_06_26.png))
 ![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_03-11-23.jpg)
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-world-explorer-omega-seven-vercel-app-search-2026-05-30-03_06_26.png))
 
-#Not Found
-![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-world-explorer-omega-seven-vercel-app-search-2026-05-30-03_06_26.png)
+
+## About
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-world-explorer-omega-seven-vercel-app-about-2026-05-30-02_59_27.png)
 
 ---
 
