@@ -6,7 +6,7 @@ A Next.js application to explore countries around the world — flags, capitals,
 
 ## Live Demo
 
-🌐 (https://world-explorer-omega-seven.vercel.app/)
+🌐 https://world-explorer-omega-seven.vercel.app/
 
 ---
 
