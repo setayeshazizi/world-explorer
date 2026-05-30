@@ -96,7 +96,7 @@ styles/
 └── globals.css
 ```
 ---
-## 📡 API Used
+##  API Used
 
 [REST Countries API](https://restcountries.com/)
 
