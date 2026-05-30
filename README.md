@@ -34,6 +34,14 @@ A Next.js application to explore countries around the world — flags, capitals,
 ## Not Found
 ![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-localhost-3000-countries-ALA-2026-05-30-03_01_08.png)
 
+## Mobile view screenshots
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_19-20-00.jpg)
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_19-19-55.jpg)
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_19-19-55.jpg)
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_19-19-45.jpg)
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_19-19-32.jpg)
+![](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/photo_2026-05-30_19-19-22.jpg)
+
 ---
 
 ##  Features
