@@ -96,6 +96,16 @@ styles/
 └── globals.css
 ```
 ---
+## 📡 API Used
+
+[REST Countries API](https://restcountries.com/)
+
+| Endpoint | Usage |
+|---|---|
+| GET /v3.1/all | Fetch all countries (cached) |
+| GET /v3.1/alpha/{code} | Fetch single country (dynamic) |
+
+---
 
 ##  Run Locally
 ```
