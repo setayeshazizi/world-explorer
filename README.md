@@ -10,7 +10,7 @@ A Next.js application to explore countries around the world — flags, capitals,
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ###  Home Page
 ![Home](https://github.com/setayeshazizi/world-explorer/blob/main/public/screenshots/screencapture-world-explorer-omega-seven-vercel-app-2026-05-30-02_58_24.png)
