@@ -6,7 +6,7 @@ A Next.js application to explore countries around the world — flags, capitals,
 
 ## Demo Video
 
-📽️ https://youtu.be/ql6S7L3ufTk?feature=shared
+ https://youtu.be/ql6S7L3ufTk?feature=shared
 
 ---
 
