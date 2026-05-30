@@ -1,6 +1,6 @@
 # 🌍 World Explorer
 
-A Next.js application to explore countries around the world — flags, capitals, populations, currencies, languages, and more. Powered by the REST Countries API.
+World Explorer is a modern, high performance Next.js application that lets you discover every country on Earth in one place. Browse flags, capitals, populations, regions, languages, currencies, and time zones — all fetched in real-time from the REST Countries API and wrapped in a stunning glassmorphism design with full dark mode support.
 
 ---
 
